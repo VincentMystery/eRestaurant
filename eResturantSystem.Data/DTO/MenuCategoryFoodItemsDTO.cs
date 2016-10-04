@@ -8,7 +8,7 @@ using eRestaurantSystem.Data.POCOs;
 
 namespace eRestaurantSystem.Data.DTO
 {
-    public class MenuCategoryFoodItems
+    public class MenuCategoryFoodItemsDTO
     {
         public string MenuCategoryDescription { get; set; }
         public List<FoodItemCounts> FoodItems { get; set; }

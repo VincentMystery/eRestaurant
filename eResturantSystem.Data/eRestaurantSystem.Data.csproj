@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\MenuCategoryFoodItems.cs" />
+    <Compile Include="DTO\MenuCategoryFoodItemsDTO.cs" />
     <Compile Include="Entities\Item.cs" />
     <Compile Include="Entities\MenuCategory.cs" />
     <Compile Include="POCOs\FoodItemCounts.cs" />

@@ -22,9 +22,8 @@ namespace eRestaurantSystem.Data.Entities
         public Boolean Active { get; set; }
         public int Calories { get; set; }
         public string Comment { get; set; }
-        [ForeignKey("MenuCategories")]
         public int MenuCategoryID { get; set; }
 
-        //public virtual 
+        //public virtual {get; set;}
     }
 }
