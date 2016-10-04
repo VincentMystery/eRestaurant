@@ -27,7 +27,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{DF3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem", "eRestaurantSystem\eRestaurantSystem.csproj", "{95AE9665-866C-4B06-A300-3ACD3EE49231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eResturantSystem.Data", "eResturantSystem.Data\eResturantSystem.Data.csproj", "{94BD3044-EB43-42BD-9718-44970A118ACA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem.Data", "eResturantSystem.Data\eRestaurantSystem.Data.csproj", "{94BD3044-EB43-42BD-9718-44970A118ACA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
