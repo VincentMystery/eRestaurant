@@ -3,6 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <asp:Label ID="Label1" runat="server" Text="GridView POCO"></asp:Label>
     <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+
+    <asp:ListView ID="ListView1" runat="server" DataSourceID="GridViewODS"></asp:ListView>
+
     <asp:ObjectDataSource ID="GridViewODS" runat="server"></asp:ObjectDataSource>
+
 </asp:Content>
 

@@ -16,6 +16,7 @@ namespace eRestaurantSystem.DAL
         public eResturantContext() : base("eResturantDB") { }
         public DbSet<Item> Items { get; set; }
         public DbSet<MenuCategory> MenuCategories { get; set; }
+        public DbSet<BillItem> BillItems { get; set; }
 
 
     }

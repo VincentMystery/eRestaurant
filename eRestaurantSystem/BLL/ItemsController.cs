@@ -24,7 +24,7 @@ namespace eRestaurantSystem.BLL
             {
                 var results = from food in context.Items
                               group food by new { food.MenuCategory.Description } into tempdataset
-                              select new
+                              select new MenuCategoryFoodItemsDTO
                               {
                                   MenuCategoryDescription = tempdataset.Key.Description
                                   ,
@@ -53,11 +53,10 @@ namespace eRestaurantSystem.BLL
                               select new MenuCategoryFoodItems
                               {
                                   MenuCategoryDescription = food.MenuCategory.Description
-                                  , ItemID = food.Description
+                                  , ItemID = food.ItemID
                                   , FoodDescription = food.Description
                                   , CurrentPrice = food.CurrentPrice
-                                  , TimesServed = 10
-                                  //, TimesServed = food.BillItems.Count()
+                                  , TimesServed = food.BillItems.Count()
                               };
 
 
