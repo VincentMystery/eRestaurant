@@ -2,6 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <h1>Nested Repeated</h1>
+
     <!-- The Outer Repeater is for each row in the overall data set -->
     <asp:Repeater ID="Repeater1" runat="server"
             DataSourceID="MenuCategoryFoodItemsODS">
@@ -22,6 +23,7 @@
     </asp:Repeater>
 
     <h1>Repeater with ListView</h1>
+
     <asp:Repeater ID="Repeater2" runat="server"
         DataSource="MenuCategoryFoodItemsODS">
         <ItemTemplate>
